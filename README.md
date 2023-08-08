@@ -12,7 +12,7 @@
 
 > Eyes is osint tool based on account search from an email address
 
-> Eyes is able to find not only if an account is existing on different sites but also to find the account (with certain modules)
+> Eyes is able to find not only if an account is existing on different sites but also to find the account in question (with certain modules)
 
 > even if the profile has nothing to do with the email 😲!
 
