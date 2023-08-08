@@ -1,6 +1,4 @@
-<h1 align="center" id="title">👁️ E y e s </h1><br>
-
-![](assets/capture.png)
+![eyes](https://github.com/N0rz3/Eyes/assets/123885505/c8fb1103-e5fe-4924-a450-6287522faa34)
 
 [![python version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)](https://www.python.org/downloads/)
 [![license](https://img.shields.io/badge/License-GNU-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.fr.html)
@@ -8,7 +6,7 @@
 
 # **🕵️ Eyes is an OSINT tool to get existing accounts from an email**
 
-
+![](assets/capture.png)
 
 ## 😇 Abouts
 
