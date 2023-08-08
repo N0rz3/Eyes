@@ -58,6 +58,6 @@ class Face:
             print(italic(f"{BLACK}[+] Result save here : {CYAN}{file_path}{WHITE}\n"))
 
         else:
-            TempPrint("[+] Profile picture removal...").Tprint()
+            TempPrint(BLACK+"[+] Profile picture removal..."+WHITE).Tprint()
             os.remove(input_path)
             pass
