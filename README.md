@@ -31,7 +31,6 @@
  Name                 |  Key          |
 | ------------------- |-------------- |
 | [Bitmoji](https://www.bitmoji.com/) | ❌ 🔑 |
-| [Chess](https://www.chess.com/) | ❌ 🔑 |
 | [Duolingo](https://www.duolingo.com/) | ❌ 🔑 |
 | [GitHub](https://github.com) | 🤔🔑 (you can add one for better results) |  
 | [Gravatar](https://en.gravatar.com/) | ❌ 🔑 |
