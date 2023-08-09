@@ -1,4 +1,4 @@
-![eyes](https://github.com/N0rz3/Eyes/assets/123885505/c8fb1103-e5fe-4924-a450-6287522faa34)
+![eyes](https://github.com/N0rz3/Eyes/assets/123885505/a3d32220-f8e5-430a-a34c-45da632bfcce)
 
 [![python version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)](https://www.python.org/downloads/)
 [![license](https://img.shields.io/badge/License-GNU-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.fr.html)
