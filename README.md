@@ -1,3 +1,5 @@
+<h1 align="center" id="title">👁️🌍 E y e s</h1><br>
+
 ![](assets/eyes.png)
 
 [![python version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)](https://www.python.org/downloads/)
