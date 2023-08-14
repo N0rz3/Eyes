@@ -3,3 +3,4 @@ httpx
 datetime
 opencv-python
 requests
+imagehash
