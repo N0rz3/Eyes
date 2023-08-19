@@ -10,7 +10,7 @@
 
 ![](assets/capture.png)
 
-## 😇 Abouts
+## 😇 About
 
 > Eyes is osint tool based on account search from an email address
 
