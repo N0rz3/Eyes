@@ -66,7 +66,7 @@ Eyes is very easy to use and not at all complex 🤙
 ### 🏄 Usage
 
 ```
-usage: eyes.py [-h] [-m] [email]
+usage: python eyes.py [-h] [-m] [email]
 
 positional arguments:
   email          search information on the target email with modules, services...
@@ -91,7 +91,7 @@ If you want to discover other tools of the same kind there are :
 
 ### ✔️ / ❌ Rules
 
-this tool was designed for educational purposes only and is not intended for any mischievous use, I am not responsible for its use.
+This tool was designed for educational purposes only and is not intended for any mischievous use, I am not responsible for its use.
 
 ### 📜 License
 
