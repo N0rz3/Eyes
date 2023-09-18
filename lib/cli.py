@@ -43,6 +43,7 @@ async def parser():
  ├──{CYAN}Bitmoji{WHITE}
  └──{CYAN}X (Twitter){WHITE}
 """)
+        # Add modules here
         exit()
 
     else:

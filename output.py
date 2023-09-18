@@ -21,6 +21,9 @@ async def eyes_output(email):
     print(await bitmoji.bitmoji(email))
     print(await x.x(email))
     await github.github(email)
+
+    # Add modules here
+
     print("[~] Paste :")
     for paste in await pastebin.pastebin(email):
         past += 1
