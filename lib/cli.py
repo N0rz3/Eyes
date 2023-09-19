@@ -48,7 +48,6 @@ async def parser():
  └──{CYAN}X (Twitter){WHITE}
 
 """)
-        # Add modules here
         exit()
 
     else:

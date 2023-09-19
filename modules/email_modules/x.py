@@ -1,9 +1,9 @@
 from lib.agents import user_agent
 from lib.requests import Requests
 from lib.text import *
-import random, json
+import random
+import json
 
-# Twitter 
 
 async def x(email):
     URL = "https://api.twitter.com/i/users/email_available.json?email={}"
@@ -18,10 +18,10 @@ async def x(email):
         read = json.load(r)
 
         if read['taken'] == True:
-                return f"""\r✔️ {GREEN}X (Twitter){WHITE}\n"""
+            return f"""\r✔️ {GREEN}X (Twitter){WHITE}\n"""
 
         else:
-                return f"""\r❌ {RED}X (Twitter){WHITE}\n"""
+            return f"""\r❌ {RED}X (Twitter){WHITE}\n"""
 
     except Exception:
         return """\r🚧 X (Twitter)\n"""
