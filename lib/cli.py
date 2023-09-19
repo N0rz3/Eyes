@@ -41,7 +41,12 @@ async def parser():
  ├──{CYAN}Pastebin{WHITE}        # links dump
  ├──{CYAN}Protonmail{WHITE}      # scrapable
  ├──{CYAN}Bitmoji{WHITE}
+ ├──{CYAN}Instagram{WHITE}
+ ├──{CYAN}Discord{WHITE}        # check note in README.md
+ ├──{CYAN}Reddit{WHITE}
+ ├──{CYAN}Pinterest{WHITE}      # check note in README.md
  └──{CYAN}X (Twitter){WHITE}
+
 """)
         # Add modules here
         exit()
