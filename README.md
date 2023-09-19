@@ -38,9 +38,6 @@ Name | Key |
 | [Protonmail](https://proton.me/mail) | ❌ 🔑 |
 | [X (Twitter)](https://x.com) | ❌ 🔑 |
 | [Instagram](https://instagram.com) | ❌ 🔑 |
-| [Discord](https://discord.com) | ❌ 🔑 |
-| [Reddit](https://reddit.com) | ❌ 🔑 |
-| [Pinterest](https://pinterest.com) | ❌ 🔑 |
 
 ### 📸🙋‍♂️ Facial recognition
 

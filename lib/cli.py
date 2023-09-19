@@ -42,11 +42,7 @@ async def parser():
  ├──{CYAN}Protonmail{WHITE}      # scrapable
  ├──{CYAN}Bitmoji{WHITE}
  ├──{CYAN}Instagram{WHITE}
- ├──{CYAN}Discord{WHITE}        # check note in README.md
- ├──{CYAN}Reddit{WHITE}
- ├──{CYAN}Pinterest{WHITE}      # check note in README.md
  └──{CYAN}X (Twitter){WHITE}
-
 """)
         exit()
 
