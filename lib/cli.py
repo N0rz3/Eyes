@@ -3,6 +3,7 @@ from .banner import *
 from output import eyes_output
 from .check_version import check_python_version
 
+
 async def parser():
     parser = argparse.ArgumentParser()
 
@@ -39,7 +40,8 @@ async def parser():
  ├──{CYAN}Mail.ru{WHITE}
  ├──{CYAN}Pastebin{WHITE}        # links dump
  ├──{CYAN}Protonmail{WHITE}      # scrapable
- ├──{CYAN}Snapchat{WHITE}
+ ├──{CYAN}Bitmoji{WHITE}
+ ├──{CYAN}Instagram{WHITE}
  └──{CYAN}X (Twitter){WHITE}
 """)
         exit()

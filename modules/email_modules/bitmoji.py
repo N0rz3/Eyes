@@ -17,12 +17,12 @@ async def bitmoji(email):
 
     try:
         r = await Requests(URL, headers=headers, data=data).post()
-    
+
         if '{"account_type":"snapchat"}' in r.text:
-                return f"""\r✔️ {GREEN}Bitmoji{WHITE}\n"""
+            return f"""\r✔️ {GREEN}Bitmoji{WHITE}\n"""
 
         else:
-                return f"""\r❌ {RED}Bitmoji{WHITE}\n""" 
+            return f"""\r❌ {RED}Bitmoji{WHITE}\n"""
 
-    except Exception:   
+    except Exception:
         return """\r🚧 Bitmoji\n"""

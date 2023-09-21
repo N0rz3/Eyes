@@ -15,16 +15,16 @@ async def gravatar(email):
         r = await Requests(URL.format(email), headers).get()
 
         if "User not found" in r.text:
-                return f"""\r❌ {RED}Gravatar{WHITE}\n"""
+            return f"""\r❌ {RED}Gravatar{WHITE}\n"""
 
         else:
             if r.json()['entry'][0]['displayName'] != None or '':
-                    return f"""\r{GREEN}✔️ Gravatar{WHITE}
+                return f"""\r{GREEN}✔️ Gravatar{WHITE}
     └──Name : {r.json()['entry'][0]['displayName']}
                     """
 
             else:
-                    return f"""\r{GREEN}✔️ Gravatar{WHITE}\n"""
+                return f"""\r{GREEN}✔️ Gravatar{WHITE}\n"""
 
     except Exception:
         return """\r🚧 Gravatar\n"""

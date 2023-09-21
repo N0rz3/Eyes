@@ -5,3 +5,4 @@ opencv-python
 requests
 imagehash
 scrape-search-engine
+bs4

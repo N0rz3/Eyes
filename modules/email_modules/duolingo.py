@@ -17,14 +17,12 @@ async def duolingo(email):
 
     try:
         r = await Requests(URL, params=params, headers=headers).get()
-    
 
         if """{"users":[]}""" in r.text:
-                return f"""\r❌ {RED}Duolingo{WHITE}\n"""
-
+            return f"""\r❌ {RED}Duolingo{WHITE}\n"""
 
         else:
-                    return f"""\r✔️ {GREEN}Duolingo{WHITE}
+            return f"""\r✔️ {GREEN}Duolingo{WHITE}
     ├──Name : {r.json()['users'][0]['username']}
     ├──Bio : {r.json()['users'][0]['bio']}
     ├──Total XP : {r.json()['users'][0]['totalXp']}

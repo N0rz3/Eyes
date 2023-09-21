@@ -1,4 +1,4 @@
-from modules.email_modules import duolingo, gravatar, imgur, protonmail, bitmoji, x, github, mailru, pastebin
+from modules.email_modules import duolingo, gravatar, imgur, protonmail, bitmoji, x, github, mailru, pastebin, ig
 from lib.text import WHITE, CYAN
 from lib.maileye import decomp, regex_check
 
@@ -21,6 +21,8 @@ async def eyes_output(email):
     print(await bitmoji.bitmoji(email))
     print(await x.x(email))
     await github.github(email)
+    await ig.instagram(email)
+
     print("[~] Paste :")
     for paste in await pastebin.pastebin(email):
         past += 1

@@ -5,6 +5,7 @@ import random
 import re
 from datetime import datetime
 
+
 async def protonmail(email):
     URL = "https://api.protonmail.ch/pks/lookup?op=index&search={}"
 
@@ -28,7 +29,8 @@ async def protonmail(email):
             for regex in regex_pat:
                 timestamp = re.search(regex, r.text)
                 if timestamp:
-                    dtimeobject = datetime.fromtimestamp(int(timestamp.group(1)))
+                    dtimeobject = datetime.fromtimestamp(
+                        int(timestamp.group(1)))
                     return f"""\r✔️ {GREEN}ProtonMail{WHITE}
     └──Date of creation : {dtimeobject} 🌐 (UTC) \n"""
                 else:
