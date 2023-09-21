@@ -101,7 +101,3 @@ If you like what i do, please subscribe 💖. And if you find this tool is usefu
 **💶 Support me 👇**
 
 <a href="https://www.buymeacoffee.com/norze" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" ></a>
-
-### 📝 Note
-
-_Please note that the `Discord` and `Pinterest` examples may not be fully reliable, as they rely on web scraping and may be subject to changes in the website's structure or terms of service._
